@@ -1,0 +1,12 @@
+[
+	{
+		"img":"images/deals.png",
+		"cat":"Headphone",
+		"price":"$300",
+		"brand":"Boe Play",
+		"discountedPrice":"$225",
+		"available": 5,
+		"sold":2,
+		"offerExpires":"Jul 13, 2018 15:37:25"
+	}
+]

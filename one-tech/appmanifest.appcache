@@ -1,0 +1,23 @@
+CACHE MANIFEST
+# v1 - 2018-07-16
+# This is a comment.
+
+index.html
+card-component.html
+search-result.html
+
+# fonts
+fonts/Flaticon.eot
+fonts/Flaticon.svg
+fonts/Flaticon.ttf
+fonts/Flaticon.woff
+
+#CSS
+#scss/one-tech.css
+
+#JS
+js/carousel.js
+js/common.js
+js/lazy-load.js
+js/owl-carousel.js
+js/search.js

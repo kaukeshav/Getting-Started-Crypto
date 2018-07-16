@@ -1,0 +1,33 @@
+{
+  "name": "onetech",
+  "version": "1.0.0",
+  "description": "onetech project",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Keshav",
+  "license": "ISC",
+  "devDependencies": {
+    "connect-livereload": "^0.6.0",
+    "del": "^3.0.0",
+    "express": "^4.16.3",
+    "gulp": "^3.9.1",
+    "gulp-clean-dest": "^0.2.0",
+    "gulp-csslint": "^1.0.1",
+    "gulp-eslint": "^4.0.2",
+    "gulp-express": "^0.3.5",
+    "gulp-jshint": "^2.1.0",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-real-favicon": "^0.3.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-w3c-html-validation": "0.0.1",
+    "gulp-wcag-accessibility": "0.0.1",
+    "jshint": "^2.9.5",
+    "jshint-stylish": "^2.2.1",
+    "livereload": "^0.7.0",
+    "path": "^0.12.7",
+    "run-sequence": "^2.2.1",
+    "ws": "3.3.2"
+  }
+}
