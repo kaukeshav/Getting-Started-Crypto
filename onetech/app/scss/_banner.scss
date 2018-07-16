@@ -1,0 +1,47 @@
+.banner {
+	background-image: url('../images/banner_background.jpg');
+	margin-top: 2em;
+	padding-bottom: 10em;
+	&__content {
+		&__text{
+			font-family: 'Montserrat', sans-serif;
+			font-weight: 500;
+			line-height: 1.166;
+			color: #7599b2;
+			letter-spacing: 1px;
+			font-size: 3em;
+		}
+		&__price{
+			font-size: 2em;
+			margin-top: 3em;
+			color: #e60000;
+			del{
+				color: grey;
+    			margin-right: 15px;
+			}
+		}
+		&__product{
+			font-size: 18px;
+			font-weight: 400;
+			color: #000000;
+			margin-top: 8px;
+		}
+		&__button {
+			margin-top: 2em;
+		}
+	}
+	&__heading{
+		padding-top: 4em;
+	}
+	&__mobile{
+		padding-top: 4em; 
+			
+			img[data-src] {
+				filter: blur(0.2em);
+			}
+			img [src]{
+				filter: blur(0em);
+				transition: filter 0.5s;
+			}
+	}
+}

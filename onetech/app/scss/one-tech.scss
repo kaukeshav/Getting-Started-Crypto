@@ -1,0 +1,29 @@
+/*
+Mystylesheet
+All the styling combines in one file
+*/
+/*	including styles section here
+	1. Header Section styles
+	2. Page all common styles
+	3. Banner Section syles
+	4. Main content of the page styles
+	5. footer section
+*/
+@import 'flaticon';
+@import 'header';
+@import 'page';
+@import 'banner';
+@import 'main-content';
+@import 'footer';
+@import 'responsive.scss';
+
+/*owlcarousel*/
+@import 'core';
+@import 'animate';
+@import 'autoheight';
+@import 'lazyload';
+@import 'video';
+/**/
+@import "theme.default";
+/**/
+@import "theme.green";

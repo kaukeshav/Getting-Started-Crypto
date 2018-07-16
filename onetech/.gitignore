@@ -1,0 +1,7 @@
+# Files to be ignored
+
+node_modules
+dist
+w3cErrors
+accessibility-report
+faviconData.json

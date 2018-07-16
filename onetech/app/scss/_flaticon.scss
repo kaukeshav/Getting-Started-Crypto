@@ -1,0 +1,109 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 09/07/2018 07:43
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/Flaticon.eot");
+  src: url("../fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/Flaticon.woff") format("woff"),
+       url("../fonts/Flaticon.ttf") format("truetype"),
+       url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+.flaticon-xiaomi:before { content: "\f100"; }
+.flaticon-google:before { content: "\f101"; }
+.flaticon-apple:before { content: "\f102"; }
+.flaticon-samsung:before { content: "\f103"; }
+.flaticon-sony:before { content: "\f104"; }
+.flaticon-vimeo-round:before { content: "\f105"; }
+.flaticon-vimeo:before { content: "\f106"; }
+.flaticon-youtube-round:before { content: "\f107"; }
+.flaticon-youtube:before { content: "\f108"; }
+.flaticon-google-plus:before { content: "\f109"; }
+.flaticon-twitter-round:before { content: "\f10a"; }
+.flaticon-facebook-round:before { content: "\f10b"; }
+.flaticon-newsletter:before { content: "\f10c"; }
+.flaticon-next:before { content: "\f10d"; }
+.flaticon-prev:before { content: "\f10e"; }
+.flaticon-gadgets:before { content: "\f10f"; }
+.flaticon-game-boy:before { content: "\f110"; }
+.flaticon-audio:before { content: "\f111"; }
+.flaticon-laptop:before { content: "\f112"; }
+.flaticon-wallet-1:before { content: "\f113"; }
+.flaticon-wallet-2:before { content: "\f114"; }
+.flaticon-refresh:before { content: "\f115"; }
+.flaticon-arrow:before { content: "\f116"; }
+.flaticon-down-arrow:before { content: "\f117"; }
+.flaticon-roof:before { content: "\f118"; }
+.flaticon-bag:before { content: "\f119"; }
+.flaticon-close:before { content: "\f11a"; }
+.flaticon-menu:before { content: "\f11b"; }
+.flaticon-search:before { content: "\f11c"; }
+.flaticon-heart-b:before { content: "\f11d"; }
+.flaticon-heart-w:before { content: "\f11e"; }
+.flaticon-user:before { content: "\f11f"; }
+.flaticon-mail:before { content: "\f120"; }
+.flaticon-phone:before { content: "\f121"; }
+.flaticon-smartphone:before { content: "\f122"; }
+    
+    $font-Flaticon-xiaomi: "\f100";
+    $font-Flaticon-google: "\f101";
+    $font-Flaticon-apple: "\f102";
+    $font-Flaticon-samsung: "\f103";
+    $font-Flaticon-sony: "\f104";
+    $font-Flaticon-vimeo-round: "\f105";
+    $font-Flaticon-vimeo: "\f106";
+    $font-Flaticon-youtube-round: "\f107";
+    $font-Flaticon-youtube: "\f108";
+    $font-Flaticon-google-plus: "\f109";
+    $font-Flaticon-twitter-round: "\f10a";
+    $font-Flaticon-facebook-round: "\f10b";
+    $font-Flaticon-newsletter: "\f10c";
+    $font-Flaticon-next: "\f10d";
+    $font-Flaticon-prev: "\f10e";
+    $font-Flaticon-gadgets: "\f10f";
+    $font-Flaticon-game-boy: "\f110";
+    $font-Flaticon-audio: "\f111";
+    $font-Flaticon-laptop: "\f112";
+    $font-Flaticon-wallet-1: "\f113";
+    $font-Flaticon-wallet-2: "\f114";
+    $font-Flaticon-refresh: "\f115";
+    $font-Flaticon-arrow: "\f116";
+    $font-Flaticon-down-arrow: "\f117";
+    $font-Flaticon-roof: "\f118";
+    $font-Flaticon-bag: "\f119";
+    $font-Flaticon-close: "\f11a";
+    $font-Flaticon-menu: "\f11b";
+    $font-Flaticon-search: "\f11c";
+    $font-Flaticon-heart-b: "\f11d";
+    $font-Flaticon-heart-w: "\f11e";
+    $font-Flaticon-user: "\f11f";
+    $font-Flaticon-mail: "\f120";
+    $font-Flaticon-phone: "\f121";
+    $font-Flaticon-smartphone: "\f122";

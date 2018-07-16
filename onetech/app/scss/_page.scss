@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
+    text-shadow: rgba(0,0,0,.01) 0 0 1px;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    background: #FFFFFF;
+    color: #000000;
+}
+.card-img{
+    &__responsive{
+        width: auto;
+        align-self: center;
+    }
+}
+.my-badge{
+    &__parent{
+        position: relative;
+    }
+    &__child{
+        position: absolute;
+        &__cart{
+            position: absolute;
+            top: 24px;
+            right: 52px;
+            height: 22px;
+            width: 22px;
+            border-radius: 20px;
+            padding-top: 7px;
+        }
+        &__featured{
+            width: 35px;
+            height: 35px;
+            padding-top: 13px;
+            margin-right: auto;
+            position: absolute;
+            left: 0;
+        }
+        &__arrivals{
+            position: absolute;
+            left: 4px;
+            height: 35px;
+            width: 35px;
+            padding-top: 13px;
+            margin-right: auto !important;
+        }
+    }
+}

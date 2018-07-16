@@ -1,0 +1,307 @@
+/*media queries*/
+
+/*All 3 headers*/
+/*header-top*/
+@media only screen and (max-width: 992px){
+	.header{
+		/*top bar*/
+		.hdr-top {
+			font-size: 1em;
+			&__register{
+				&::after{
+					right: 75px;
+				}
+			}
+		}
+		&__top{
+			&__list{
+				display: none;
+			}
+		}
+		.header-nav{
+			&__bar{
+				background-color: #2690ce !important;
+				position: relative;
+				&__collapse{
+					position: absolute;
+					top: 100%;
+					width: 100%;
+					z-index: 3;
+					margin-top: 8px;
+					background-color: rgb(40, 157, 226)
+				}
+			}
+			&__list{
+				padding-left: 1em;
+				&__item{
+					padding-left: 10px;
+				}
+			}
+			&__sub-list{
+				display: none;
+				z-index: 19;
+			}
+		}
+		.show{
+			display: block;
+		}
+		/*main bar*/
+		.nav__modify{
+			margin-left: 10px;
+			margin-right: 10px;
+			padding-left: 10px;
+			color: white;
+			border-bottom: 1px solid #aaaeca80;
+			a.nav-link{
+				color: white !important;
+			}
+		}
+		.nav__modify:last-child{
+			border-bottom: none;
+		}
+		button.navbar-toggler.ml-auto.collapsed{
+			margin-right: 1em;
+		}
+	}
+	.owl-nav{
+		position: static;
+		display: block;
+	}
+}
+@media only screen and (max-width: 770px){
+	.header{
+		/*top bar*/
+		.hdr-top {
+			font-size: 10px;
+			&__register{
+				&::after{
+					right: 55px;
+				}
+			}
+		}
+		/*main bar*/
+	}
+	.categories{
+		&__list{
+			display: none;
+		}
+	}
+	.main .trends18 .card__trends img {
+    	height: auto;
+		width: auto;
+		margin: auto;
+	}
+	.owl-nav {
+		display: none;
+		position: absolute;
+		left: -30%;
+		top: 50%;
+	}
+	/*main content*/
+	.recently-viewed{
+		.owl-nav{
+			display: block;
+		}
+	}
+	.partners{
+		.owl-nav{
+			display: block;
+		}
+	}
+}
+@media only screen and (max-width: 550px){
+	.header{
+		/*top bar*/
+		.hdr-top {
+			display: none;
+		}
+		&__top{
+			display: none;
+		}
+		/*main bar*/
+	}
+}
+
+/*Header-Main*/
+@media only screen and (max-width: 411px) {
+	.header{
+		&__main{
+			height: 6em;
+			&--disabled{
+				display: none;
+			}
+			&__logo {
+				align-self: center;
+				font-size: 2.33em;
+			}
+			&__checkout{
+				.checkout{
+					&__wishlist{
+						align-self: center;
+					}	
+					&__icon{
+						i{
+							font-size: 27px;
+						}
+						span{
+							top: 24px;
+							right: 48px;
+							height: 22px;
+							width: 22px;
+						}
+					}
+					&__content{
+						margin-left: 0;
+					}
+					&__head{
+						display: none;
+					}
+					&__sub{
+						font-size: 18px;
+					}
+					&__cart{
+						margin-left: 10px;
+					}
+				}
+			}
+		}
+		button.navbar-toggler.ml-auto{
+			margin-right: 0 !important;
+			border: none;
+		}
+		.header-nav{
+			&__list{
+				padding: 0;
+				width: auto;
+			}
+			&__sub-list{
+				top:46;
+			}
+		}
+	}
+	/*banner section*/
+	.banner{
+		margin-top: 0;
+    	padding-bottom: 3em;
+		&__content{
+			&__text{
+				font-size: 2em;
+			}
+			&__price{
+				margin-top: 0;
+			}
+		}
+		&__mobile{
+			align-self: center;
+		}
+	}
+	/*main content*/
+	.main{
+		.yeah-item{
+			padding-left: 1em;
+    		padding-right: 1em;
+		}
+		/*shipping section*/
+		.card-shipping{
+			&__delivery{
+				margin-bottom: 2em;
+			}
+		}
+		/*feautred section*/
+		.featured{
+			margin-top: 0;
+			.my-card{
+				margin-bottom: 3em;
+			}
+			&__nav{
+				&__link{
+					font-size: 16px;
+					font-weight: 400;
+				}
+			}
+			&__item{
+				border-right: none;
+				min-height: 150px;
+			}
+			&__item-odd{
+				display: none;
+			}
+		}
+		/*section hot sellers*/
+		.hs{
+			&__head{
+				display: block;
+				padding-left: 1em;
+				&__h4{
+					display: block;
+					h4{
+						font-size: 2em;
+					}
+				}
+				&__right{
+					&__first{
+						h5{
+							font-size: 14px;
+						}
+					}
+					&__second{
+						h5{
+							font-size: 14px;
+						}
+					}
+					&__third{
+						h5{
+							font-size: 14px;
+						}
+					}
+				}
+			}
+			
+		}
+		/*section newsletter*/
+		.newsletter{
+			text-align: center;
+			&__form{
+				a{
+					margin-left: 5em;
+				}
+				.form-inline.input-group{
+					padding-left: 38px;
+				}
+			}
+		}
+		/*new arrivals section*/
+		.new-arrivals{
+			.main-heading{
+				nav.custom-row{
+					display: block;
+				}
+			}
+			&__main-heading{
+				padding-left: 1em;
+			}
+			.card-new-arrivals {
+				padding: 1em;
+				border: none;
+				margin-top: 3em;
+			}
+		}
+		/*trends18*/
+		.my-badge__child__arrivals {
+			position: absolute;
+			left: 24px;
+			height: 35px;
+			width: 35px;
+			padding-top: 13px;
+			margin-right: auto !important;
+		}
+		.my-badge__child__featured {
+			width: 35px;
+			height: 35px;
+			padding-top: 13px;
+			margin-right: auto;
+			position: absolute;
+			left: 24px;
+		}
+	}
+}

@@ -1,0 +1,213 @@
+$("#featured-carousel").owlCarousel({
+	rtl:true,
+	loop:true,
+	margin:10,
+	nav:true,
+	responsive:{
+		0:{
+			items:1
+		},
+		450:{
+			items:1
+		},
+		600:{
+			items:3
+		},
+		1000:{
+			items:4
+		}
+	}
+});
+$("#new-arrivals-carousel").owlCarousel({
+	rtl:true,
+	loop:true,
+	margin:10,
+	nav:true,
+	responsive:{
+		0:{
+			items:1
+		},
+		450:{
+			items:1
+		},
+		600:{
+			items:3
+		},
+		1000:{
+			items:5
+		}
+	}
+});
+$("#featured-carousel-2").owlCarousel({
+	rtl:true,
+	loop:true,
+	margin:10,
+	nav:true,
+	responsive:{
+		0:{
+			items:1
+		},
+		450:{
+			items:1
+		},
+		600:{
+			items:3
+		},
+		1000:{
+			items:4
+		}
+	}
+});
+$("#featured-carousel-3").owlCarousel({
+	rtl:true,
+	loop:true,
+	margin:10,
+	nav:true,
+	responsive:{
+		0:{
+			items:1
+		},
+		450:{
+			items:1
+		},
+		600:{
+			items:3
+		},
+		1000:{
+			items:4
+		}
+	}
+});
+$('.carousel').carousel({
+  interval: 3000
+});
+$('.owl-carousel-1').owlCarousel({
+	rtl:true,
+	loop:true,
+	margin:10,
+	nav:true,
+	responsive:{
+		0:{
+			items:1
+		},
+		450:{
+			items:1
+		},
+		600:{
+			items:3
+		},
+		1000:{
+			items:5
+		}
+	}
+});
+$('.owl-carousel-2').owlCarousel({
+	rtl:true,
+	loop:true,
+	margin:10,
+	nav:true,
+	responsive:{
+		0:{
+			items:1
+		},
+		450:{
+			items:1
+		},
+		600:{
+			items:3
+		},
+		1000:{
+			items:5
+		}
+	}
+});
+$('.owl-carousel-last').owlCarousel({
+	rtl:true,
+	loop:true,
+	margin:10,
+	nav:true,
+	responsive:{
+		0:{
+			items:1
+		},
+		450:{
+			items:1
+		},
+		600:{
+			items:3
+		},
+		1000:{
+			items:5
+		}
+	}
+});
+$('.recently-viewed-carousel').owlCarousel({
+	rtl:true,
+	loop:true,
+	margin:10,
+	nav:true,
+	responsive:{
+		0:{
+			items:1
+		},
+		450:{
+			items:1
+		},
+		600:{
+			items:3
+		},
+		1000:{
+			items:5
+		}
+	}
+});
+$('.owl-carousel-reviews').owlCarousel({
+	rtl:true,
+	loop:true,
+	margin:10,
+	nav:true,
+	responsive:{
+		0:{
+			items:1
+		},
+		450:{
+			items:1
+		},
+		600:{
+			items:2
+		},
+		1000:{
+			items:3
+		}
+	}
+});
+$('#hot-seller-carousel').owlCarousel({
+	rtl:true,
+	loop:true,
+	margin:10,
+	nav:true,
+	responsive:{
+		0:{
+			items:1
+		},
+		450:{
+			items:1
+		},
+		600:{
+			items:2
+		},
+		1000:{
+			items:3
+		}
+	}
+});
+$(document).ready(function(){
+    $(".header-nav__list").hover(function(){
+        $(".header-nav__sub-list").toggleClass("show");
+    });
+    $(".featured__item").hover(function(){
+        $(this).closest(".featured__item__color").toggleClass("show");
+        $(this).closest(".featured__item__cart").toggleClass("show");
+        $(this).toggleClass("custom-feature");
+    });
+});

@@ -1,0 +1,1934 @@
+<!DOCTYPE html>
+<html lang="en" manifest="appmanifest.appcache">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+		<title>One-Tech</title>
+
+		<link rel="stylesheet"
+			  href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+		<link href="css/one-tech.css" rel="stylesheet">
+		<link rel="stylesheet"
+			  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700" rel="stylesheet">
+	</head>
+	<body>
+		<!--header-->
+		<header class="header">
+			<!--Header Top section-->
+			<div class="header__top hdr-top">
+				<div class="container">
+					<div class="row">
+						<div class="col d-flex flex-row hdr-top__row">
+							<div class="header__top__info">
+								<div class="header__top__icon">
+									<i class="fi flaticon-smartphone"></i>
+								</div>
+								<a href="#" title="">
+									+38 068 005 3570<!--later json or after:-->
+								</a>
+							</div>
+							<div class="header__top__info">
+								<div class="header__top__icon">
+									<i class="fi flaticon-mail"></i>
+								</div>
+								<a href="#" title="">
+									Someone@example.com
+								</a>
+							</div>
+							<div class="header__top__right ml-auto d-flex align-items-center">
+								<div class="header__top__location d-flex align-items-center">
+									<ul class="header__top__list list list-inline">
+										<li class="header__top__language list-inline-item">
+											<a href="#">ENGLISH</a>
+										</li>
+										<li class="header__top__currency list-inline-item">
+											<a href="#">EURO</a>
+										</li>
+									</ul>
+								</div>
+								<div class="header__top__user d-flex align-items-center">
+									<div class="header__top__register">
+										<div class="user-icon">
+											<i class="fi flaticon-user"></i>
+										</div>
+										<div class="hdr-top__register">
+											<a href="#">Register</a>
+										</div>
+									</div>
+									<div class="header__top__signin">
+										<a href="#">Sign in</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+			<!--Header Main Section-->
+			<div class="header__main">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-2 col-sm-3 col-3 order-1 header__main__parts">
+							<div class="header__main__logo">
+								<div class="header__main__logotext">
+									<a href="#">OneTech</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6 col-12 order-lg-2 order-3 text-lg-left text-right header__main__parts header__main--disabled">
+							<div class="header__main__search search">
+								<form class="form-group form-inline input-group">
+									<input id="search-products-input" type="text" placeholder="Search for Products" 
+										   class="form-inline">
+									<div class="search__icon input-group">
+										<ul class="navbar-nav mx-auto list-group-flush">	
+											<li class="nav-item dropdown">
+												<a class="nav-link dropdown-toggle" 
+												   href="#" id="navbarDropdown"
+												   role="button" data-toggle="dropdown" 
+												   aria-haspopup="true" 
+												   aria-expanded="false">
+													Featured Brands
+												</a>
+												<div class="dropdown-menu" 
+													 aria-labelledby="navbarDropdown">
+													<a class="dropdown-item" href="#">Computers</a>
+													<a class="dropdown-item" href="#">Laptops</a>
+													<a class="dropdown-item" href="#">Cameras</a>
+													<a class="dropdown-item" href="#">Hardware</a>
+													<a class="dropdown-item" href="#">Phones</a>
+													<div class="dropdown-divider"></div>
+													<a class="dropdown-item" href="#">All Categories</a>
+												</div>
+											</li>
+										</ul>
+									</div>
+									<button id="search-btn" class="btn btn-primary search__btn input-group">
+										<i class="fi flaticon-search"></i>
+									</button>
+								</form>
+							</div>
+						</div>
+						<div class="col-lg-4 col-9 order-lg-3 order-2 header__main__parts">
+							<div class="header__main__checkout text-right">
+								<div class="checkout__wishlist text-left">
+									<div class="checkout__icon">
+										<i class="fi flaticon-heart-w checkout__icon--lg__icon"></i>
+									</div>
+									<div class="checkout__content">
+										<div class="checkout__head">
+											<a href="#" title="">WishList</a>
+										</div>
+										<div class="checkout__sub">
+											115
+										</div>
+									</div>
+								</div>
+								<div class="checkout__cart text-left">
+									<div class="checkout__icon">
+										<i class="fi flaticon-bag checkout__icon--lg__icon my-badge__parent"></i>
+										<span class="badge badge-primary my-badge__child__cart">10</span>
+									</div>
+									<div class="checkout__content">
+										<div class="checkout__head">
+											<a href="#" title="">Cart</a>
+										</div>
+										<div class="checkout__sub">
+											$88
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+		<!-- Header Section Navigation-->
+		<div class="header-nav">
+			<div class="container">
+				<div class="row">
+					<nav class="header-nav__bar navbar navbar-expand-lg navbar-light bg-light custom-row">
+						<ul class="list-unstyled list-inline header-nav__list">
+							<i class="fi flaticon-menu header-nav__icon"></i>
+							<li class="list-inline-item header-nav__list__item">	
+							<a id="" class="header-nav__list__item__anchor" href="#">
+								Categories
+								<ul class="list-group-flush header-nav__sub-list">
+									<li class="list-group-item header-nav__sub-list__item">
+										<a href="#" class="categories-comp">Computers &amp; Laptops</a>
+									</li>
+									<li class="list-group-item header-nav__sub-list__item">
+										<a href="#">Cameras &amp; Photos</a>
+									</li>
+									<li class="list-group-item header-nav__sub-list__item">
+										<a href="#">Hardware</a>
+									</li>
+									<li class="list-group-item header-nav__sub-list__item">
+										<a href="#">SmartPhones &amp; Tablets</a>
+									</li>
+									<li class="list-group-item header-nav__sub-list__item">
+										<a href="#">TV &amp; Audio</a>
+									</li>
+									<li class="list-group-item header-nav__sub-list__item">
+									<a href="#">Gadgets</a>
+									</li>
+									<li class="list-group-item header-nav__sub-list__item">
+										<a href="#">Car Electronics</a>
+									</li>
+									<li class="list-group-item header-nav__sub-list__item">
+										<a href="#">Video Games &amp; Consoles</a>
+									</li>
+									<li class="list-group-item header-nav__sub-list__item">
+										<a href="#">Accessories</a>
+									</li>
+								</ul>
+							</a>
+							</li>
+						</ul>
+						<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" style="margin-right: 1em;border: none;" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							Menu <span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse header-nav__bar__collapse ml-auto " id="navbarSupportedContent">
+							<ul class="navbar-nav ml-auto list-group-flush">
+								<li class="nav-item active nav__modify">
+									<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+								</li>
+								<li class="nav-item dropdown nav__modify">
+									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									Super Deals
+									</a>
+									<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+										<a class="dropdown-item" href="#">Action</a>
+										<a class="dropdown-item" href="#">Another action</a>
+										<div class="dropdown-divider"></div>
+										<a class="dropdown-item" href="#">Something else here</a>
+									</div>
+								</li>
+								<li class="nav-item dropdown nav__modify">
+									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									Featured Deals
+									</a>
+									<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+										<a class="dropdown-item" href="#">Action</a>
+										<a class="dropdown-item" href="#">Another action</a>
+										<div class="dropdown-divider"></div>
+										<a class="dropdown-item" href="#">Something else here</a>
+									</div>
+								</li>
+								<li class="nav-item dropdown nav__modify">
+									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									Pages
+									</a>
+									<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+										<a class="dropdown-item" href="#">Action</a>
+										<a class="dropdown-item" href="#">Another action</a>
+										<div class="dropdown-divider"></div>
+										<a class="dropdown-item" href="#">Something else here</a>
+									</div>
+								</li>
+								<li class="nav-item nav__modify">
+									<a class="nav-link" href="#">Blog <span class="sr-only">(current)</span></a>
+								</li>
+								<li class="nav-item nav__modify">
+									<a class="nav-link" href="#">Content <span class="sr-only">(current)</span></a>
+								</li>
+							</ul>
+						</div>	
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- Header ends here-->
+
+		<!--Section Product Banner-->
+		<section id="main-banner">
+			<div class="banner">
+				<div class="container">
+					<div class="row">
+						<div class="offset-lg-4 col-lg-4 col-md-5 col-sm-4 col-6 banner__heading">
+							<div class="banner__content">
+								<h1 class="banner__content__text">NEW ERA OF SMARTPHONES</h1>
+								<div class="banner__content__price"><del>$530</del>$460</div>
+								<div class="banner__content__product">Apple Iphone 6s</div>
+								<div class="button banner__content__button">
+									<button class="btn btn-default btn-primary">Shop Now</button>
+								</div>
+							</div>
+						</div>
+						<div class="banner__mobile text-sm-left col-lg-4 col-md-7 col-sm-8 col-6">
+							<img src="images/banner_product.png" class="img-fluid" alt="mobile product">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--Banner Section Ends-->
+
+
+		<!-- Main Content Starts Here-->
+		<main class="main">
+			<!--Shipping Section-->
+			<section id="main-shipping">
+				<div class="main__shipping">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-3 col-md-6 col-sm-6 col-12">
+								<div class="card card-shipping__delivery animated bounce">
+									<div class="main__shipping__img">
+										<img src="images/char_1.png" alt="free delivery">
+									</div>
+									<div class="main__shipping__content">
+										<div class="card__header">Free Delivery</div>
+										<div class="card__content">from $50</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-6 col-sm-6 col-12">
+								<div class="card card-shipping__delivery animated bounce">
+									<div class="main__shipping__img">
+										<img src="images/char_2.png" alt="free delivery">
+									</div>
+									<div class="main__shipping__content">
+										<div class="card__header">Free Delivery</div>
+										<div class="card__content">from $50</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-6 col-sm-6 col-12">
+								<div class="card card-shipping__delivery animated bounce">
+									<div class="main__shipping__img">
+										<img src="images/char_3.png" alt="free delivery">
+									</div>
+									<div class="main__shipping__content">
+										<div class="card__header">Free Delivery</div>
+										<div class="card__content">from $50</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-6 col-sm-6 col-12">
+								<div class="card card-shipping__delivery animated bounce">
+									<div class="main__shipping__img">
+										<img src="images/char_4.png" alt="free delivery">
+									</div>
+									<div class="main__shipping__content">
+										<div class="card__header">Free Delivery</div>
+										<div class="card__content">from $50</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!--featured section-->
+			<section id="main-featured" class="featured">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-4" id="parentProduct-card">
+							<!--card carousel coming from json-->
+						</div>
+						<div class="col-lg-8">
+							<div class="featured__heading">
+								<nav>
+									<div class="nav nav-tabs featured__nav" id="nav-tab" role="tablist">
+										<a class="nav-item nav-link featured__nav__link active" 
+										   id="nav-home-tab" data-toggle="tab" href="#nav-home" 
+										   role="tab" aria-controls="nav-home" aria-selected="true">Featured</a>
+										<a class="nav-item nav-link featured__nav__link" id="nav-profile-tab"
+										   data-toggle="tab" href="#nav-profile" role="tab" 
+										   aria-controls="nav-profile" aria-selected="false">On Sale</a>
+										<a class="nav-item nav-link featured__nav__link" id="nav-contact-tab"
+										   data-toggle="tab" href="#nav-contact" role="tab" 
+										   aria-controls="nav-contact" aria-selected="false">Best Rated</a>
+									</div>
+								</nav>
+								<div class="tab-content featured__tab" id="nav-tabContent">
+									<div class="tab-pane fade featured__tab__pane show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">									
+										<!---->			
+										<div id="featured-carousel" class="col-lg-12 owl-carousel owl-carousel-2 owl-theme"u>						
+											<div class="">
+												<div class="featured__item card card-group my-badge__parent">
+													<span class="badge badge-primary rounded-circle bg-danger my-badge__child__featured">25%</span>
+													<div class="featured__item__img">
+														<img id="lazy" src="images/featured_1.png" class="img-fluid">
+													</div>
+													<div class="featured__item__price">
+														<span class="text-right">$300</span>
+														<span class="text-danger text-left font-weight-bold">$225</span>
+													</div>
+													<div class="featured__item__name">Huwaie</div>
+													<div class="featured__item__color show-feature">
+													  <span class="rounded-circle circle-2"></span>
+													  <span class="rounded-circle circle-3"></span>
+													</div>
+													<div class="featured__item__cart show-feature">
+														<button class="btn btn-primary btn-block">Add to Cart</button>
+													</div>
+												</div><!--item1-->
+												<div class="featured__item card card-group my-badge__parent featured__item-odd">
+													<span class="badge badge-primary rounded-circle bg-danger my-badge__child__featured">-25%</span>
+													<div class="featured__item__img">
+														<img src="images/featured_5.png" class="img-fluid">
+													</div>
+													<div class="featured__item__price">
+														<span class="text-right">$300</span>
+														<span class="text-danger text-left font-weight-bold">$225</span>
+													</div>
+													<div class="featured__item__name">Huwaie</div>
+													<div class="featured__item__color show-feature">
+													  <span class="rounded-circle circle-1"></span>
+													  <span class="rounded-circle circle-2"></span>
+													  <span class="rounded-circle circle-3"></span>
+													</div>
+													<div class="featured__item__cart show-feature">
+														<button class="btn btn-primary btn-block">Add to Cart</button>
+													</div>
+												</div><!--item1-->
+											</div>
+											<div class="">
+												<div class="featured__item card card-group">
+													<div class="featured__item__img">
+														<img src="images/featured_2.png" class="img-fluid">
+													</div>
+													<div class="featured__item__price">
+														<span class="text-right">$300</span>
+														<span class="text-danger text-left font-weight-bold">$225</span>
+													</div>
+													<div class="featured__item__name">Huwaie</div>
+													<div class="featured__item__color show-feature">
+													  <span class="rounded-circle circle-1"></span>
+													  <span class="rounded-circle circle-2"></span>
+													  <span class="rounded-circle circle-3"></span>
+													</div>
+													<div class="featured__item__cart show-feature">
+														<button class="btn btn-primary btn-block">Add to Cart</button>
+													</div>
+												</div><!--item1-->
+												<div class="featured__item card card-group featured__item-odd">
+													<div class="featured__item__img">
+														<img src="images/featured_6.png" class="img-fluid">
+													</div>
+													<div class="featured__item__price">
+														<span class="text-right">$300</span>
+														<span class="text-danger text-left font-weight-bold">$225</span>
+													</div>
+													<div class="featured__item__name">Huwaie</div>
+													<div class="featured__item__color show-feature">
+													  <span class="rounded-circle circle-1"></span>
+													  <span class="rounded-circle circle-2"></span>
+													  <span class="rounded-circle circle-3"></span>
+													</div>
+													<div class="featured__item__cart show-feature">
+														<button class="btn btn-primary btn-block">Add to Cart</button>
+													</div>
+												</div><!--item1-->
+											</div>
+											<div class="">
+												<div class="featured__item card card-group my-badge__parent">
+													<span class="badge badge-primary rounded-circle bg-danger my-badge__child__featured">-25%</span>
+													<div class="featured__item__img">
+														<img src="images/featured_3.png" class="img-fluid">
+													</div>
+													<div class="featured__item__price">
+														<span class="text-right">$300</span>
+														<span class="text-danger text-left font-weight-bold">$225</span>
+													</div>
+													<div class="featured__item__name">Huwaie</div>
+													<div class="featured__item__color show-feature">
+													  <span class="rounded-circle circle-1"></span>
+													  <span class="rounded-circle circle-2"></span>
+													  <span class="rounded-circle circle-3"></span>
+													</div>
+													<div class="featured__item__cart show-feature">
+														<button class="btn btn-primary btn-block">Add to Cart</button>
+													</div>
+												</div><!--item1-->
+												<div class="featured__item card card-group featured__item-odd">
+													<div class="featured__item__img">
+														<img src="images/featured_7.png" class="img-fluid">
+													</div>
+													<div class="featured__item__price">
+														<span class="text-right">$300</span>
+														<span class="text-danger text-left font-weight-bold">$225</span>
+													</div>
+													<div class="featured__item__name">Huwaie</div>
+													<div class="featured__item__color show-feature">
+													  <span class="rounded-circle circle-1"></span>
+													  <span class="rounded-circle circle-2"></span>
+													  <span class="rounded-circle circle-3"></span>
+													</div>
+													<div class="featured__item__cart show-feature">
+														<button class="btn btn-primary btn-block">Add to Cart</button>
+													</div>
+												</div><!--item1-->
+											</div>
+											<div class="">
+												<div class="featured__item card card-group">
+													<div class="featured__item__img">
+														<img src="images/featured_4.png" class="img-fluid">
+													</div>
+													<div class="featured__item__price">
+														<span class="text-right">$300</span>
+														<span class="text-danger text-left font-weight-bold">$225</span>
+													</div>
+													<div class="featured__item__name">Huwaie</div>
+													<div class="featured__item__color show-feature">
+													  <span class="rounded-circle circle-1"></span>
+													  <span class="rounded-circle circle-2"></span>
+													  <span class="rounded-circle circle-3"></span>
+													</div>
+													<div class="featured__item__cart show-feature">
+														<button class="btn btn-primary btn-block">Add to Cart</button>
+													</div>
+												</div><!--	item1-->
+												<div class="featured__item card card-group my-badge__parent featured__item-odd">
+													<span class="badge badge-primary rounded-circle bg-danger my-badge__child__featured">-25%</span>
+													<div class="featured__item__img">
+														<img src="images/featured_8.png" class="img-fluid">
+													</div>
+													<div class="featured__item__price">
+														<span class="text-right">$300</span>
+														<span class="text-danger text-left font-weight-bold">$225</span>
+													</div>
+													<div class="featured__item__name">Huwaie</div>
+													<div class="featured__item__color show-feature">
+													  <span class="rounded-circle circle-1"></span>
+													  <span class="rounded-circle circle-2"></span>
+													  <span class="rounded-circle circle-3"></span>
+													</div>
+													<div class="featured__item__cart show-feature">
+														<button class="btn btn-primary btn-block">Add to Cart</button>
+													</div>
+												</div><!--item1-->
+											</div>
+											<div class="">
+												<div class="featured__item card card-group">
+													<div class="featured__item__img">
+														<img src="images/featured_1.png" class="img-fluid">
+													</div>
+													<div class="featured__item__price">
+														<span class="text-right">$300</span>
+														<span class="text-danger text-left font-weight-bold">$225</span>
+													</div>
+													<div class="featured__item__name">Huwaie</div>
+													<div class="featured__item__color show-feature">
+													  <span class="rounded-circle circle-1"></span>
+													  <span class="rounded-circle circle-2"></span>
+													  <span class="rounded-circle circle-3"></span>
+													</div>
+													<div class="featured__item__cart show-feature">
+														<button class="btn btn-primary btn-block">Add to Cart</button>
+													</div>
+												</div><!--item1-->
+												<div class="featured__item card card-group featured__item-odd">
+													<div class="featured__item__img">
+														<img src="images/featured_5.png" class="img-fluid">
+													</div>
+													<div class="featured__item__price">
+														<span class="text-right">$300</span>
+														<span class="text-danger text-left font-weight-bold">$225</span>
+													</div>
+													<div class="featured__item__name">Huwaie</div>
+													<div class="featured__item__color show-feature">
+													  <span class="rounded-circle circle-1"></span>
+													  <span class="rounded-circle circle-2"></span>
+													  <span class="rounded-circle circle-3"></span>
+													</div>
+													<div class="featured__item__cart show-feature">
+														<button class="btn btn-primary btn-block">Add to Cart</button>
+													</div>
+												</div><!--item1-->
+												<!--lazyloadsends-->
+											</div>
+										</div>
+										<!--carousel ends-->
+									</div>
+									<div class="tab-pane fade featured__tab__pane" id="nav-profile" 
+										 role="tabpanel" aria-labelledby="nav-profile-tab">
+										<!---->			
+										<div id="featured-carousel-2" class="col-lg-12 owl-carousel owl-carousel-2 owl-theme">						
+											<div class="">
+												<div class="featured__item card card-group">
+													<div class="featured__item__img">
+														<img src="images/featured_1.png" class="img-fluid">
+													</div>
+													<div class="featured__item__price">
+														<span class="text-right">$300</span>
+														<span class="text-danger text-left font-weight-bold">$225</span>
+													</div>
+													<div class="featured__item__name">Huwaie</div>
+													<div class="featured__item__color show-feature">
+													  <span class="rounded-circle circle-1"></span>
+														<span class="rounded-circle circle-2"></span>
+													  <span class="rounded-circle circle-3"></span>
+													</div>
+													<div class="featured__item__cart show-feature">
+														<button class="btn btn-primary btn-block">Add to Cart</button>
+													</div>
+												</div><!--item1-->
+												<div class="featured__item card card-group featured__item-odd">
+													<div class="featured__item__img">
+														<img src="images/featured_5.png" class="img-fluid">
+													</div>
+													<div class="featured__item__price">
+														<span class="text-right">$300</span>
+														<span class="text-danger text-left font-weight-bold">$225</span>
+													</div>
+													<div class="featured__item__name">Huwaie</div>
+													<div class="featured__item__color show-feature">
+													  <span class="rounded-circle circle-1"></span>
+													  <span class="rounded-circle circle-2"></span>
+													  <span class="rounded-circle circle-3"></span>
+													</div>
+													<div class="featured__item__cart show-feature">
+														<button class="btn btn-primary btn-block">Add to Cart</button>
+													</div>
+												</div><!--item1-->
+											</div>
+											<div class="">
+												<div class="featured__item card card-group">
+													<div class="featured__item__img">
+														<img src="images/featured_2.png" class="img-fluid">
+													</div>
+													<div class="featured__item__price">
+														<span class="text-right">$300</span>
+														<span class="text-danger text-left font-weight-bold">$225</span>
+													</div>
+													<div class="featured__item__name">Huwaie</div>
+													<div class="featured__item__color show-feature">
+													  <span class="rounded-circle circle-1"></span>
+													  <span class="rounded-circle circle-2"></span>
+													  <span class="rounded-circle circle-3"></span>
+													</div>
+													<div class="featured__item__cart show-feature">
+														<button class="btn btn-primary btn-block">Add to Cart</button>
+													</div>
+												</div><!--item1-->
+												<div class="featured__item card card-group featured__item-odd">
+													<div class="featured__item__img">
+														<img src="images/featured_6.png" class="img-fluid">
+													</div>
+													<div class="featured__item__price">
+														<span class="text-right">$300</span>
+														<span class="text-danger text-left font-weight-bold">$225</span>
+													</div>
+													<div class="featured__item__name">Huwaie</div>
+													<div class="featured__item__color show-feature">
+													  <span class="rounded-circle circle-1"></span>
+													  <span class="rounded-circle circle-2"></span>
+													  <span class="rounded-circle circle-3"></span>
+													</div>
+													<div class="featured__item__cart show-feature">
+														<button class="btn btn-primary btn-block">Add to Cart</button>
+													</div>
+												</div><!--item1-->
+											</div>
+											<div class="">
+												<div class="featured__item card card-group">
+													<div class="featured__item__img">
+														<img src="images/featured_3.png" class="img-fluid">
+													</div>
+													<div class="featured__item__price">
+														<span class="text-right">$300</span>
+														<span class="text-danger text-left font-weight-bold">$225</span>
+													</div>
+													<div class="featured__item__name">Huwaie</div>
+													<div class="featured__item__color show-feature">
+													  <span class="rounded-circle circle-1"></span>
+													  <span class="rounded-circle circle-2"></span>
+													  <span class="rounded-circle circle-3"></span>
+													</div>
+													<div class="featured__item__cart show-feature">
+														<button class="btn btn-primary btn-block">Add to Cart</button>
+													</div>
+												</div><!--item1-->
+												<div class="featured__item card card-group featured__item-odd">
+													<div class="featured__item__img">
+														<img src="images/featured_7.png" class="img-fluid">
+													</div>
+													<div class="featured__item__price">
+														<span class="text-right">$300</span>
+														<span class="text-danger text-left font-weight-bold">$225</span>
+													</div>
+													<div class="featured__item__name">Huwaie</div>
+													<div class="featured__item__color show-feature">
+													  <span class="rounded-circle circle-1"></span>
+													  <span class="rounded-circle circle-2"></span>
+													  <span class="rounded-circle circle-3"></span>
+													</div>
+													<div class="featured__item__cart show-feature">
+														<button class="btn btn-primary btn-block">Add to Cart</button>
+													</div>
+												</div><!--item1-->
+											</div>
+											<div class="">
+												<div class="featured__item card card-group">
+													<div class="featured__item__img">
+														<img src="images/featured_4.png" class="img-fluid">
+													</div>
+													<div class="featured__item__price">
+														<span class="text-right">$300</span>
+														<span class="text-danger text-left font-weight-bold">$225</span>
+													</div>
+													<div class="featured__item__name">Huwaie</div>
+													<div class="featured__item__color show-feature">
+													  <span class="rounded-circle circle-1"></span>
+													  <span class="rounded-circle circle-2"></span>
+													  <span class="rounded-circle circle-3"></span>
+													</div>
+													<div class="featured__item__cart show-feature">
+														<button class="btn btn-primary btn-block">Add to Cart</button>
+													</div>
+												</div><!--item1-->
+												<div class="featured__item card card-group featured__item-odd">
+													<div class="featured__item__img">
+														<img src="images/featured_8.png" class="img-fluid">
+													</div>
+													<div class="featured__item__price">
+														<span class="text-right">$300</span>
+														<span class="text-danger text-left font-weight-bold">$225</span>
+													</div>
+													<div class="featured__item__name">Huwaie</div>
+													<div class="featured__item__color show-feature">
+													  <span class="rounded-circle circle-1"></span>
+													  <span class="rounded-circle circle-2"></span>
+													  <span class="rounded-circle circle-3"></span>
+													</div>
+													<div class="featured__item__cart show-feature">
+														<button class="btn btn-primary btn-block">Add to Cart</button>
+													</div>
+												</div><!--item1-->
+											</div>
+											<div class="">
+												<div class="featured__item card card-group">
+													<div class="featured__item__img">
+														<img src="images/featured_1.png" class="img-fluid">
+													</div>
+													<div class="featured__item__price">
+														<span class="text-right">$300</span>
+														<span class="text-danger text-left font-weight-bold">$225</span>
+													</div>
+													<div class="featured__item__name">Huwaie</div>
+													<div class="featured__item__color show-feature">
+													  <span class="rounded-circle circle-1"></span>
+													  <span class="rounded-circle circle-2"></span>
+													  <span class="rounded-circle circle-3"></span>
+													</div>
+													<div class="featured__item__cart show-feature">
+														<button class="btn btn-primary btn-block">Add to Cart</button>
+													</div>
+												</div><!--item1-->
+												<div class="featured__item card card-group featured__item-odd">
+													<div class="featured__item__img">
+														<img src="images/featured_5.png" class="img-fluid">
+													</div>
+													<div class="featured__item__price">
+														<span class="text-right">$300</span>
+														<span class="text-danger text-left font-weight-bold">$225</span>
+													</div>
+													<div class="featured__item__name show-feature">Huwaie</div>
+													<div class="featured__item__color show-feature">
+													  <span class="rounded-circle circle-1"></span>
+													  <span class="rounded-circle circle-2"></span>
+													  <span class="rounded-circle circle-3"></span>
+													</div>
+													<div class="featured__item__cart show-feature">
+														<button class="btn btn-primary btn-block">Add to Cart</button>
+													</div>
+												</div><!--item1-->
+											</div>
+										</div><!---->
+									</div>
+									<div class="tab-pane fade featured__tab__pane" id="nav-contact" 
+										 role="tabpanel" aria-labelledby="nav-contact-tab">
+										<!---->			
+										<div id="featured-carousel-3" class="col-lg-12 owl-carousel owl-carousel-2 owl-theme">						
+											<div class="">
+												<div class="featured__item card card-group">
+													<div class="featured__item__img">
+														<img src="images/featured_1.png" class="img-fluid">
+													</div>
+													<div class="featured__item__price">
+														<span class="text-danger text-left">$225</span>
+														<span class="text-right">$225</span>
+													</div>
+													<div class="featured__item__name">Huwaie</div>
+													<div class="featured__item__color"></div>
+													<div class="featured__item__cart">
+														Add to cart
+													</div>
+												</div><!--item1-->
+												<div class="featured__item card card-group">
+													<div class="featured__item__img">
+														<img src="images/featured_5.png" class="img-fluid">
+													</div>
+													<div class="featured__item__price">
+														<span class="text-danger">$225</span>
+														<span class="">$225</span>
+													</div>
+													<div class="featured__item__name"></div>
+													<div class="featured__item__color"></div>
+													<div class="featured__item__cart">
+														Add to cart
+													</div>
+												</div><!--item1-->
+											</div>
+											<div class="">
+												<div class="featured__item card card-group">
+													<div class="featured__item__img">
+														<img src="images/featured_2.png" class="img-fluid">
+													</div>
+													<div class="featured__item__price">
+														<span class="text-danger">$225</span>
+														<span class="">$225</span>
+													</div>
+													<div class="featured__item__name"></div>
+													<div class="featured__item__color"></div>
+													<div class="featured__item__cart">
+														Add to cart
+													</div>
+												</div><!--item1-->
+												<div class="featured__item card card-group">
+													<div class="featured__item__img">
+														<img src="images/featured_6.png" class="img-fluid">
+													</div>
+													<div class="featured__item__price">
+														<span class="text-danger">$225</span>
+														<span class="">$225</span>
+													</div>
+													<div class="featured__item__name"></div>
+													<div class="featured__item__color"></div>
+													<div class="featured__item__cart">
+														Add to cart
+													</div>
+												</div><!--item1-->
+											</div>
+											<div class="">
+												<div class="featured__item card card-group">
+													<div class="featured__item__img">
+														<img src="images/featured_3.png" class="img-fluid">
+													</div>
+													<div class="featured__item__price">
+														<span class="text-danger">$225</span>
+														<span class="">$225</span>
+													</div>
+													<div class="featured__item__name"></div>
+													<div class="featured__item__color"></div>
+													<div class="featured__item__cart">
+														Add to cart
+													</div>
+												</div><!--item1-->
+												<div class="featured__item card card-group">
+													<div class="featured__item__img">
+														<img src="images/featured_7.png" class="img-fluid">
+													</div>
+													<div class="featured__item__price">
+														<span class="text-danger">$225</span>
+														<span class="">$225</span>
+													</div>
+													<div class="featured__item__name"></div>
+													<div class="featured__item__color"></div>
+													<div class="featured__item__cart">
+														Add to cart
+													</div>
+												</div><!--item1-->
+											</div>
+											<div class="">
+												<div class="featured__item card card-group">
+													<div class="featured__item__img">
+														<img src="images/featured_4.png" class="img-fluid">
+													</div>
+													<div class="featured__item__price">
+														<span class="text-danger">$225</span>
+														<span class="">$225</span>
+													</div>
+													<div class="featured__item__name"></div>
+													<div class="featured__item__color"></div>
+													<div class="featured__item__cart">
+														Add to cart
+													</div>
+												</div><!--item1-->
+												<div class="featured__item card card-group">
+													<div class="featured__item__img">
+														<img src="images/featured_8.png" class="img-fluid">
+													</div>
+													<div class="featured__item__price">
+														<span class="text-danger">$225</span>
+														<span class="">$225</span>
+													</div>
+													<div class="featured__item__name"></div>
+													<div class="featured__item__color"></div>
+													<div class="featured__item__cart">
+														Add to cart
+													</div>
+												</div><!--item1-->
+											</div>
+											<div class="">
+												<div class="featured__item card card-group">
+													<div class="featured__item__img">
+														<img src="images/featured_1.png" class="img-fluid">
+													</div>
+													<div class="featured__item__price">
+														<span class="text-danger">$225</span>
+														<span class="">$225</span>
+													</div>
+													<div class="featured__item__name"></div>
+													<div class="featured__item__color"></div>
+													<div class="featured__item__cart">
+														Add to cart
+													</div>
+												</div><!--item1-->
+												<div class="featured__item card card-group">
+													<div class="featured__item__img">
+														<img src="images/featured_5.png" class="img-fluid">
+													</div>
+													<div class="featured__item__price">
+														<span class="text-danger">$225</span>
+														<span class="">$225</span>
+													</div>
+													<div class="featured__item__name"></div>
+													<div class="featured__item__color"></div>
+													<div class="featured__item__cart">
+														Add to cart
+													</div>
+												</div><!--item1-->
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>					
+					</div>
+				</div>
+			</section>
+
+			<!--Categories Section(Popular)-->
+			<section id="pop-cat" class="main__section__categories pop-cat">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-3 col-md-12">
+							<div class="heading"><h2>Popular Catergories</h2></div>
+						</div>
+						<div class="col-lg-9 col-md-12 owl-carousel owl-carousel-1 owl-theme">
+							<div class="item pop-cat__odd-item">
+								<div class="popular-cat__items__odd d-flex 
+											flex-column align-items-center justify-content-center">
+									<div class="popular__category_image">
+										<img src="images/popular_1.png" alt=""></div>
+									<div class="popular_category_text">Smart Phones</div>
+								</div>
+							</div>
+							<div class="item pop-cat__even-item">
+								<div class="popular-cat__items__even d-flex 
+											flex-column align-items-center justify-content-center">
+									<div class="popular__category_image">
+										<img src="images/popular_2.png" alt=""></div>
+									<div class="popular_category_text">Computers</div>
+								</div>
+							</div>
+							<div class="item pop-cat__odd-item">
+								<div class="popular-cat__items__odd d-flex 
+											flex-column align-items-center justify-content-center">
+									<div class="popular__category_image">
+										<img src="images/popular_3.png" alt=""></div>
+									<div class="popular_category_text">Gadgets</div>
+								</div>
+							</div>
+							<div class="item pop-cat__even-item">
+								<div class="popular-cat__items__even d-flex 
+											flex-column align-items-center justify-content-center">
+									<div class="popular__category_image">
+										<img src="images/popular_4.png" alt=""></div>
+									<div class="popular_category_text">Video Games</div>
+								</div>
+							</div>
+							<div class="item pop-cat__odd-item">
+								<div class="popular-cat__items__odd d-flex 
+											flex-column align-items-center justify-content-center">
+									<div class="popular__category_image">
+										<img src="images/popular_5.png" alt=""></div>
+									<div class="popular_category_text">Accessories</div>
+								</div>
+							</div>
+							<div class="item pop-cat__even-item">
+								<div class="popular-cat__items__even d-flex 
+											flex-column align-items-center justify-content-center">
+									<div class="popular__category_image">
+										<img src="images/popular_2.png" alt=""></div>
+									<div class="popular_category_text">Computers</div>
+								</div>
+							</div>
+							<div class="item pop-cat__odd-item">
+								<div class="popular-cat__items__odd d-flex 
+											flex-column align-items-center justify-content-center">
+									<div class="popular__category_image">
+										<img src="images/popular_3.png" alt=""></div>
+									<div class="popular_category_text">Gadgets</div>
+								</div>
+							</div>
+							<div class="item pop-cat__even-item">
+								<div class="popular-cat__items__even d-flex 
+											flex-column align-items-center justify-content-center">
+									<div class="popular__category_image">
+										<img src="images/popular_4.png" alt=""></div>
+									<div class="popular_category_text">Video Games</div>
+								</div>
+							</div>
+							<div class="item pop-cat__odd-item">
+								<div class="popular-cat__items__odd d-flex 
+											flex-column align-items-center justify-content-center">
+									<div class="popular__category_image">
+										<img src="images/popular_5.png" alt=""></div>
+									<div class="popular_category_text">Accessories</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!--Laptops Carousel Section-->
+			<section class="laptops-section">
+				<div id="carouselExampleIndicators" class="carousel slide container" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">
+						</li>
+						<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+						<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+					</ol>
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<div class="carousel-img-1 col-lg-8 ml-auto">
+								<img class="img-fluid" src="images/banner_2_product.png" alt="First slide">
+							</div>
+							<div class="carousel-caption col-lg-4 d-none d-md-block">
+								<h5 class="carousel-item__heading">Mac Book AIR 13</h5>
+								<p class="carousel-item__content">Lorem ipsum dolor sit amet, <br>consectetur adipiscing elit.<br> Proin eget libero fermentum, commodo justo sed, porttitor elit.</p>
+								<button class="btn btn-default btn-primary btn-lg">Explore</button>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="col-lg-8 ml-auto">
+								<img class="img-fluid" src="images/banner_2_product.png" alt="Second slide">
+							</div>
+							<div class="carousel-caption col-lg-4 d-none d-md-block">
+								<h5 class="carousel-item__heading">Mac Book AIR 13</h5>
+								<p class="carousel-item__content">Lorem ipsum dolor sit amet, <br>consectetur adipiscing elit. <br>Proin eget libero fermentum, commodo justo sed, porttitor elit.</p>
+								<button class="btn btn-default btn-primary btn-lg">Explore</button>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="col-lg-8 ml-auto">
+								<img class="img-fluid" src="images/banner_2_product.png" alt="Third slide">
+							</div>
+							<div class="carousel-caption col-lg-4 d-none d-md-block">
+								<h5 class="carousel-item__heading">Mac Book AIR 13</h5>
+								<p class="carousel-item__content">Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit.<br> Proin eget libero fermentum, commodo justo sed, porttitor elit.</p>
+								<button class="btn btn-default btn-primary btn-lg">Explore</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!--New Arrivals-->
+			<section id="new-arrivals" class="new-arrivals">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12 custom-row main-heading">
+							<nav class="custom-row ">
+								<div class="new-arrivals__main-heading">
+									<h3>Hot New Arrivals</h3>
+								</div>
+								<div class="nav nav-tabs ml-auto" id="nav-tab" role="tablist">
+									<a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Home</a>
+									<a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Profile</a>
+									<a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Contact</a>
+								</div>
+							</nav>
+						</div>
+						<div class="w-100"></div>
+						<div id="new-arrivals-carousel" class="col-lg-9 owl-carousel owl-carousel-4 owl-theme">						
+							<div class="">
+								<div class="featured__item card card-group">
+									<span class="badge badge-primary rounded-circle my-badge__child__arrivals">New</span>
+									<div class="featured__item__img">
+										<img src="images/new_1.jpg" class="img-fluid">
+									</div>
+									<div class="featured__item__price">
+										<span class="text-right">$300</span>
+										<span class="text-danger text-left font-weight-bold">$225</span>
+									</div>
+									<div class="featured__item__name">Huwaie</div>
+									<div class="featured__item__color show-feature">
+									  <span class="rounded-circle circle-2"></span>
+									  <span class="rounded-circle circle-3"></span>
+									</div>
+									<div class="featured__item__cart show-feature">
+										<button class="btn btn-primary btn-block">Add to Cart</button>
+									</div>
+								</div><!--item1-->
+								<div class="featured__item card card-group featured__item-odd">
+									<span class="badge badge-primary rounded-circle my-badge__child__arrivals">New</span>
+									<div class="featured__item__img">
+										<img src="images/new_3.jpg" class="img-fluid">
+									</div>
+									<div class="featured__item__price">
+										<span class="text-right">$300</span>
+										<span class="text-danger text-left font-weight-bold">$225</span>
+									</div>
+									<div class="featured__item__name">Huwaie</div>
+									<div class="featured__item__color show-feature">
+									  <span class="rounded-circle circle-2"></span>
+									  <span class="rounded-circle circle-3"></span>
+									</div>
+									<div class="featured__item__cart show-feature">
+										<button class="btn btn-primary btn-block">Add to Cart</button>
+									</div>
+								</div><!--item1-->
+							</div>
+							<div class="">
+								<div class="featured__item card card-group">
+									<span class="badge badge-primary rounded-circle my-badge__child__arrivals">New</span>
+									<div class="featured__item__img">
+										<img src="images/new_2.jpg" class="img-fluid">
+									</div>
+									<div class="featured__item__price">
+										<span class="text-right">$300</span>
+										<span class="text-danger text-left font-weight-bold">$225</span>
+									</div>
+									<div class="featured__item__name">Huwaie</div>
+									<div class="featured__item__color show-feature">
+									  <span class="rounded-circle circle-2"></span>
+									  <span class="rounded-circle circle-3"></span>
+									</div>
+									<div class="featured__item__cart show-feature">
+										<button class="btn btn-primary btn-block">Add to Cart</button>
+									</div>
+								</div><!--item1-->
+								<div class="featured__item card card-group featured__item-odd">
+									<span class="badge badge-primary rounded-circle my-badge__child__arrivals">New</span>
+									<div class="featured__item__img">
+										<img src="images/new_9.jpg" class="img-fluid">
+									</div>
+									<div class="featured__item__price">
+										<span class="text-right">$300</span>
+										<span class="text-danger text-left font-weight-bold">$225</span>
+									</div>
+									<div class="featured__item__name">Huwaie</div>
+									<div class="featured__item__color show-feature">
+									  <span class="rounded-circle circle-2"></span>
+									  <span class="rounded-circle circle-3"></span>
+									</div>
+									<div class="featured__item__cart show-feature">
+										<button class="btn btn-primary btn-block">Add to Cart</button>
+									</div>
+								</div><!--item1-->
+							</div>
+							<div class="">
+								<div class="featured__item card card-group">
+									<span class="badge badge-primary rounded-circle my-badge__child__arrivals">New</span>
+									<div class="featured__item__img">
+										<img src="images/new_3.jpg" class="img-fluid">
+									</div>
+									<div class="featured__item__price">
+										<span class="text-right">$300</span>
+										<span class="text-danger text-left font-weight-bold">$225</span>
+									</div>
+									<div class="featured__item__name">Huwaie</div>
+									<div class="featured__item__color show-feature">
+									  <span class="rounded-circle circle-2"></span>
+									  <span class="rounded-circle circle-3"></span>
+									</div>
+									<div class="featured__item__cart show-feature">
+										<button class="btn btn-primary btn-block">Add to Cart</button>
+									</div>
+								</div><!--item1-->
+								<div class="featured__item card card-group featured__item-odd">
+									<span class="badge badge-primary rounded-circle my-badge__child__arrivals">New</span>
+									<div class="featured__item__img">
+										<img src="images/new_8.jpg" class="img-fluid">
+									</div>
+									<div class="featured__item__price">
+										<span class="text-right">$300</span>
+										<span class="text-danger text-left font-weight-bold">$225</span>
+									</div>
+									<div class="featured__item__name">Huwaie</div>
+									<div class="featured__item__color show-feature">
+									  <span class="rounded-circle circle-2"></span>
+									  <span class="rounded-circle circle-3"></span>
+									</div>
+									<div class="featured__item__cart show-feature">
+										<button class="btn btn-primary btn-block">Add to Cart</button>
+									</div>
+								</div><!--item1-->
+							</div>
+							<div class="">
+								<div class="featured__item card card-group">
+									<span class="badge badge-primary rounded-circle my-badge__child__arrivals">New</span>
+									<div class="featured__item__img">
+										<img src="images/new_3.jpg" class="img-fluid">
+									</div>
+									<div class="featured__item__price">
+										<span class="text-right">$300</span>
+										<span class="text-danger text-left font-weight-bold">$225</span>
+									</div>
+									<div class="featured__item__name">Huwaie</div>
+									<div class="featured__item__color show-feature">
+									  <span class="rounded-circle circle-2"></span>
+									  <span class="rounded-circle circle-3"></span>
+									</div>
+									<div class="featured__item__cart show-feature">
+										<button class="btn btn-primary btn-block">Add to Cart</button>
+									</div>
+								</div><!--item1-->
+								<div class="featured__item card card-group featured__item-odd">
+									<span class="badge badge-primary rounded-circle my-badge__child__arrivals">New</span>
+									<div class="featured__item__img">
+										<img src="images/new_7.jpg" class="img-fluid">
+									</div>
+									<div class="featured__item__price">
+										<span class="text-right">$300</span>
+										<span class="text-danger text-left font-weight-bold">$225</span>
+									</div>
+									<div class="featured__item__name">Huwaie</div>
+									<div class="featured__item__color show-feature">
+									  <span class="rounded-circle circle-2"></span>
+									  <span class="rounded-circle circle-3"></span>
+									</div>
+									<div class="featured__item__cart show-feature">
+										<button class="btn btn-primary btn-block">Add to Cart</button>
+									</div>
+								</div><!--item1-->
+							</div>
+							<div class="">
+								<div class="featured__item card card-group">
+									<span class="badge badge-primary rounded-circle my-badge__child__arrivals">New</span>
+									<div class="featured__item__img">
+										<img src="images/new_4.jpg" class="img-fluid">
+									</div>
+									<div class="featured__item__price">
+										<span class="text-right">$300</span>
+										<span class="text-danger text-left font-weight-bold">$225</span>
+									</div>
+									<div class="featured__item__name">Huwaie</div>
+									<div class="featured__item__color show-feature">
+									  <span class="rounded-circle circle-2"></span>
+									  <span class="rounded-circle circle-3"></span>
+									</div>
+									<div class="featured__item__cart show-feature">
+										<button class="btn btn-primary btn-block">Add to Cart</button>
+									</div>
+								</div><!--item1-->
+								<div class="featured__item card card-group featured__item-odd">
+									<span class="badge badge-primary rounded-circle my-badge__child__arrivals">New</span>
+									<div class="featured__item__img">
+										<img src="images/new_6.jpg" class="img-fluid">
+									</div>
+									<div class="featured__item__price">
+										<span class="text-right">$300</span>
+										<span class="text-danger text-left font-weight-bold">$225</span>
+									</div>
+									<div class="featured__item__name">Huwaie</div>
+									<div class="featured__item__color show-feature">
+									  <span class="rounded-circle circle-2"></span>
+									  <span class="rounded-circle circle-3"></span>
+									</div>
+									<div class="featured__item__cart show-feature">
+										<button class="btn btn-primary btn-block">Add to Cart</button>
+									</div>
+								</div><!--item1-->
+							</div>
+						</div>
+						<!--carousel ends-->
+						<div class="col-lg-3">
+							<div class="card card-new-arrivals" style="">
+								<span class="badge badge-primary rounded-circle my-badge__child__arrivals">New</span>
+								<img class="card-img__responsive" src="images/new_single.png" alt="Card image cap"	>
+								<div class="card-body">
+									<p class="card-text">Luna Smartphones</p>
+									<h5 class="card-title">Luna Smartphone</h5>
+									<a href="#" class="btn btn-primary btn-block">Add to cart</a>
+								</div>
+							</div>
+						</div> 
+					</div>
+				</div>
+			</section>
+
+			<!--hot sellers section-->
+			<section id="main-hot-sellers" class="hs">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12 hs__head">
+							<div class="hs__head__h4"><h4>Hot Best Sellers</h4></div>
+							<div class="hs__head__right ml-auto">
+								<div class="hs__head__right__first active">
+									<h5>Top 20</h5>
+								</div>
+								<div class="hs__head__right__second">
+									<h5>Audio &amp; Video</h5>
+								</div>
+								<div class="hs__head__right__third">
+									<h5>Laptops &amp; Computers</h5>
+								</div>
+							</div>
+						</div>
+						<div id="hot-seller-carousel" class="owl-carousel owl-carousel-hot-sellers owl-theme reviews__slider">
+							<div class="yeah-item">
+								<div class="card hs__item card">
+									<img class="hs__item__img" src="images/best_1.png" alt="Card image cap">
+									<div class="card-body">
+										<h5 class="card-title">Emilia Clarke</h5>
+										<span>2 days ago</span>
+										<p class="card-text">
+										Some quick example 
+										text to build on the card title and make
+										
+										</p>
+									</div>
+								</div>
+								<div class="card hs__item card featured__item-odd">
+									<img class="hs__item__img" src="images/best_1.png" alt="Card image cap">
+									<div class="card-body">
+										<h5 class="card-title">Emilia Clarke</h5>
+										<span>2 days ago</span>
+										<p class="card-text">
+										Some quick example 
+										text to build on the card title and make
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="yeah-item">
+								<div class="card hs__item card">
+									<img class="hs__item__img" src="images/best_3.png" alt="Card image cap">
+									<div class="card-body">
+										<h5 class="card-title">Emilia Clarke</h5>
+										<span>2 days ago</span>
+										<p class="card-text">
+										Some quick example 
+										text to build on the card title and make
+										</p>
+									</div>
+								</div>
+								<div class="card hs__item card featured__item-odd">
+									<img class="hs__item__img" src="images/best_4.png" alt="Card image cap">
+									<div class="card-body">
+										<h5 class="card-title">Emilia Clarke</h5>
+										<span>2 days ago</span>
+										<p class="card-text">
+										Some quick example 
+										text to build on the card title and make
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="yeah-item">
+								<div class="card hs__item card">
+									<img class="hs__item__img" src="images/best_5.png" alt="Card image cap">
+									<div class="card-body">
+										<h5 class="card-title">Emilia Clarke</h5>
+										<span>2 days ago</span>
+										<p class="card-text">
+										Some quick example 
+										text to build on the card title and make
+										</p>
+									</div>
+								</div>
+								<div class="card hs__item card featured__item-odd">
+									<img class="hs__item__img" src="images/best_6.png" alt="Card image cap">
+									<div class="card-body">
+										<h5 class="card-title">Emilia Clarke</h5>
+										<span>2 days ago</span>
+										<p class="card-text">
+										Some quick example 
+										text to build on the card title and make
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="yeah-item">
+								<div class="card hs__item card">
+									<img class="hs__item__img" src="images/best_1.png" alt="Card image cap">
+									<div class="card-body">
+										<h5 class="card-title">Emilia Clarke</h5>
+										<span>2 days ago</span>
+										<p class="card-text">
+										Some quick example 
+										text to build on the card title and make
+										</p>
+									</div>
+								</div>
+								<div class="card hs__item card featured__item-odd">
+									<img class="hs__item__img" src="images/best_1.png" alt="Card image cap">
+									<div class="card-body">
+										<h5 class="card-title">Emilia Clarke</h5>
+										<span>2 days ago</span>
+										<p class="card-text">
+										Some quick example 
+										text to build on the card title and make
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="yeah-item">
+								<div class="card hs__item card">
+									<img class="hs__item__img" src="images/best_3.png" alt="Card image cap">
+									<div class="card-body">
+										<h5 class="card-title">Emilia Clarke</h5>
+										<span>2 days ago</span>
+										<p class="card-text">
+										Some quick example 
+										text to build on the card title and make
+										</p>
+									</div>
+								</div>
+								<div class="card hs__item card featured__item-odd">
+									<img class="hs__item__img" src="images/best_4.png" alt="Card image cap">
+									<div class="card-body">
+										<h5 class="card-title">Emilia Clarke</h5>
+										<span>2 days ago</span>
+										<p class="card-text">
+										Some quick example 
+										text to build on the card title and make
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="yeah-item">
+								<div class="card hs__item card">
+									<img class="hs__item__img" src="images/best_5.png" alt="Card image cap">
+									<div class="card-body">
+										<h5 class="card-title">Emilia Clarke</h5>
+										<span>2 days ago</span>
+										<p class="card-text">
+										Some quick example 
+										text to build on the card title and make
+										</p>
+									</div>
+								</div>
+								<div class="card hs__item card featured__item-odd">
+									<img class="hs__item__img" src="images/best_6.png" alt="Card image cap">
+									<div class="card-body">
+										<h5 class="card-title">Emilia Clarke</h5>
+										<span>2 days ago</span>
+										<p class="card-text">
+										Some quick example 
+										text to build on the card title and make
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- trends top start-->
+			<section id="trends-top" class="trends-top">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-4 col-md-4 col-sm-12 col-12">
+							<div class="card trends-top__card board">
+								<img src="images/adv_1_.png" alt="headphones" class="board__img">
+								<div class="card-body board__body">
+									<h4 class="card-title board__body__title">Trends 2018</h4>
+									<p class="card-text board__body__text">Lorem ipsum dolor sit amet, consectetur adipiscing Donec etc.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-12 col-12">
+							<div class="card trends-top__card board">
+								<img src="images/adv_2_.png" alt="speaker" class="board__img">
+								<div class="card-body board__body">
+									<span class="board__body__highlight">Trends 2018</span>
+									<h4 class="card-title board__body__title text-primary">Sale -45%</h4>
+									<p class="card-text board__body__text">Lorem ipsum dolor sit amet, consectetur</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-12 col-12">
+							<div class="card trends-top__card board">
+								<img src="images/adv_3_.png" alt="woofers" class="board__img">
+								<div class="card-body board__body">
+									<h4 class="card-title board__body__title">Trends 2018</h4>
+									<p class="card-text board__body__text">Lorem ipsum dolor sit amet, consectetur.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- trends top ends-->
+
+			<!--Trends Section-->
+			<section class="trends">
+				<!--color test-->
+				<div class="trends__back"></div>
+				<div class="trends__color"></div>
+				<div class="trends18">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-3 col-md-12 trends18__story">
+								<div>
+									<h2 class="trends18__header">Trends 2018</h2>
+								</div>
+								<div class="trends18__content">
+									<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-4">
+								<div class="card card__trends my-badge__parent">
+									<span class="badge badge-primary rounded-circle my-badge__child__arrivals">New</span>
+									<img class="card-img__responsive" src="images/trends_1.jpg" alt="Card image cap">
+									<div class="card-title">
+										<h4>Jump White</h4>
+										<span class="trends18__price">$379</span>
+									</div>
+									<div class="card-footer">
+										<small class="text-muted">Electronics</small>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-4">
+								<div class="card card__trends">
+									<img class="card-img__responsive" src="images/trends_2.jpg" alt="Card image cap">
+									<div class="card-title">
+										<h4>Fit Band</h4>
+										<span class="trends18__price">$379</span>
+									</div>
+									<div class="card-footer">
+										<small class="text-muted">Electronics</small>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-4">
+								<div class="card card__trends my-badge__parent">
+									<span class="badge badge-primary rounded-circle my-badge__child__arrivals">New</span>
+									<img class="card-img__responsive" src="images/trends_3.jpg" alt="Card image cap">
+									<div class="card-title">
+										<h4>Mavic Pro</h4>
+										<span class="trends18__price ml-auto">$379</span>
+									</div>
+									<div class="card-footer">
+										<small class="text-muted">Electronics</small>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!--Lastest Reviews Section starts-->
+			<section id="main-reviews">
+				<div class="reviews">
+				  <div class="container">
+					  <div class="row">
+						  <div class="col">
+							  <div class="reviews__title__container">
+								  <h3 class="reviews__title">Latest Reviews</h3>
+								  <div class="reviews__all ml-auto">
+									<a href="#">view all <span>reviews</span></a>
+								  </div>
+							  </div>
+								  <!-- Reviews Slider -->
+							  <div class="owl-carousel owl-carousel-reviews owl-theme reviews__slider">
+								  <!-- Reviews Slider Item -->
+									<div class="reviews__item card">
+										<img class="reviews__item__img" src="images/review_1.jpg" alt="Card image cap">
+										<div class="card-body">
+										  <h5 class="card-title">Emilia Clarke</h5>
+										  <span>2 days </span>
+										  <p class="card-text">
+											Some quick example 
+											text to build on the card title and make
+											up the bulk of the card's content
+										  </p>
+										</div>
+									</div>
+								  <!-- Reviews Slider Item -->
+									<div class="reviews__item card">
+										<img class="reviews__item__img" src="images/review_2.jpg" alt="Card image cap">
+										<div class="card-body">
+										  <h5 class="card-title">Emilia Clarke</h5>
+										  <span>2 days</span>
+										  <p class="card-text">
+											Some quick example 
+											text to build on the card title and make
+											up the bulk of the card's content
+										  </p>
+										</div>
+									</div>
+								  <!-- Reviews Slider Item -->
+									<div class="reviews__item card">
+										<img class="reviews__item__img" src="images/review_3.jpg" alt="Card image cap">
+										<div class="card-body">
+										  <h5 class="card-title">Emilia Clarke</h5>
+										  <span>2 days</span>
+										  <p class="card-text">
+											Some quick example 
+											text to build on the card title and make
+											up the bulk of the card's content
+										  </p>
+										</div>
+									</div>
+									<div class="reviews__item card">
+										<img class="reviews__item__img" src="images/review_1.jpg" alt="Card image cap">
+										<div class="card-body">
+										  <h5 class="card-title">Emilia Clarke</h5>
+										  <span>2 days</span>
+										  <p class="card-text">
+											Some quick example 
+											text to build on the card title and make
+											up the bulk of the card's content
+										  </p>
+										</div>
+									</div>
+								  <!-- Reviews Slider Item -->
+									<div class="reviews__item card">
+										<img class="reviews__item__img" src="images/review_2.jpg" alt="Card image cap">
+										<div class="card-body">
+										  <h5 class="card-title">Emilia Clarke</h5>
+										  <span>2 days</span>
+										  <p class="card-text">
+											Some quick example 
+											text to build on the card title and make
+											up the bulk of the card's content
+										  </p>
+										</div>
+									</div>
+								  <!-- Reviews Slider Item -->
+									<div class="reviews__item card">
+										<img class="reviews__item__img" src="images/review_3.jpg" alt="Card image cap">
+										<div class="card-body">
+										  <h5 class="card-title">Emilia Clarke</h5>
+										  <span>2 days</span>
+										  <p class="card-text">
+											Some quick example 
+											text to build on the card title and make
+											up the bulk of the card's content
+										  </p>
+										</div>
+									</div>
+							  </div>
+						  </div>
+					  </div>
+				  </div>
+				</div>
+			</section>
+			<!--seciton recently ends-->
+
+
+			<!--Recently Viewed Section-->
+			<section id="main-recently-viewed" class="recently-viewed">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12 recently-viewed__row1 custom-row">
+							<div class="recently-viewed__heading">
+								<h3 class="">Recently Viewed</h3>
+							</div>
+							<div class="ml-auto recently-viewed__nav">
+								<!--buttons owls-->
+							</div>
+						</div>
+						<div class="w-100"></div>
+						<div class="col-lg-12 recently-viewed__row2">
+							<div class="owl-carousel owl-theme recently-viewed-carousel">
+								<div class="item">
+									<div class="card card__recently-viewed" style="">
+										<img class="card-img-top card__recent-img" src="images/view_1.jpg" alt="Card image cap">
+										<div class="card-body items-content">
+											<p class="card-text recent-price">$375</p>
+											<a href="#">Boeplay</a>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="card card__recently-viewed" style="">
+										<img class="card-img-top card__recent-img" src="images/view_2.jpg" alt="Card image cap">
+										<div class="card-body items-content">
+											<p class="card-text recent-price">$225<del>$300</del></p>
+											<a href="#">Smartphone</a>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="card card__recently-viewed" style="">
+										<img class="card-img-top card__recent-img" src="images/view_3.jpg" alt="Card image cap">
+										<div class="card-body items-content">
+											<p class="card-text recent-price">$379</p>
+											<a href="#">Luna Smartphone</a>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="card card__recently-viewed" style="">
+										<img class="card-img-top card__recent-img" src="images/view_4.jpg" alt="Card image cap">
+										<div class="card-body items-content">
+											<p class="card-text recent-price">$400<del>$420</del></p>
+											<a href="#">NYC Tablet</a>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="card card__recently-viewed" style="">
+										<img class="card-img-top card__recent-img" src="images/view_5.jpg" alt="Card image cap">
+										<div class="card-body items-content">
+											<p class="card-text recent-price">$999</p>
+											<a href="#">Sony PS-4</a>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="card card__recently-viewed" style="">
+										<img class="card-img-top card__recent-img" src="images/view_6.jpg" alt="Card image cap">
+										<div class="card-body items-content">
+											<p class="card-text recent-price">$300<del>$350</del></p>
+											<a href="#">Console</a>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="card card__recently-viewed" style="">
+										<img class="card-img-top card__recent-img" src="images/view_1.jpg" alt="Card image cap">
+										<div class="card-body items-content">
+											<p class="card-text recent-price">$375</p>
+											<a href="#">Boeplay</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Media Partner Section-->
+			<section class="partners">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="owl-carousel owl-theme owl-carousel-last partners__block">
+								<div class="item">
+									<div class="partners__block__img">
+										<i class="fi flaticon-xiaomi partners__block__icon"></i>
+									</div>
+								</div>
+								<div class="item">
+									<div class="partners__block__img">
+										<i class="fi flaticon-google partners__block__icon"></i>
+									</div>
+								</div>
+								<div class="item">
+									<div class="partners__block__img">
+										<i class="fi flaticon-apple partners__block__icon"></i>
+									</div>
+								</div>
+								<div class="item">
+									<div class="partners__block__img">
+										<i class="fi flaticon-sony partners__block__icon"></i>
+									</div>
+								</div>
+								<div class="item">
+									<div class="partners__block__img" class="img-fluid partners-img">
+										<i class="fi flaticon-xiaomi partners__block__icon"></i>
+										<!--<img src="images/brands_6.jpg">-->
+									</div>
+								</div>
+								<div class="item">
+									<div class="partners__block__img">
+										<i class="fi flaticon-google partners__block__icon"></i>
+										<!--<img src="images/brands_4.jpg" class="img-fluid partners-img">-->
+									</div>
+								</div>
+								<div class="item">
+									<div class="partners__block__img">
+										<!--<img src="images/brands_8.jpg" class="img-fluid partners-img">-->
+										<i class="fi flaticon-apple partners__block__icon"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!--Newsletter Section-->
+			<section id="main-newsletter" class="newsletter">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-1 newsletter__discount__img">
+							<img src="images/send.png" alt="newsletter" class="">
+						</div>
+						<div class="col-lg-4 newsletter__discount__content">
+							<h4 class="">Sign up for Newsletter</h4>
+							<p>... and recieve %20 coupon for first shopping</p>
+						</div>
+						<div class="col-lg-7 newsletter__form">
+							<form class="form-inline input-group">
+								<input type="text" class="form-group input-group" placeholder="Enter your email address">
+								<button class="btn btn-primary">Subscribe</button>
+								<a href="#">UNSUBSCRIBE</a>
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<!-- Main Contents Ends here-->
+
+		<!-- Page footer Starts-->
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 footer__col">
+						<div class="footer__column footer__contact">
+							<div class="logo__container">
+								<div class="logo"><a href="#">OneTech</a></div>
+							</div>
+							<div class="footer__title">Got Question? Call Us 24/7</div>
+							<div class="footer__phone">+38 068 005 3570</div>
+							<div class="footer__contact__text">
+								<p>17 Princess Road, London</p>
+								<p>Grester London NW18JR, UK</p>
+							</div>
+							<div class="footer__social">
+								<ul class="list-inline">
+									<li class="list-inline-item">
+										<a href="#" title="facebook">
+											<i class="fi flaticon-facebook-round footer__social__icon"></i>
+										</a>
+									</li>
+									<li class="list-inline-item">
+										<a href="#" title="twitter">
+											<i class="fi flaticon-twitter-round footer__social__icon"></i>
+										</a>
+									</li>
+									<li class="list-inline-item">
+										<a href="#" title="youtube">
+											<i class="fi flaticon-youtube-round footer__social__icon"></i>
+										</a>
+									</li>
+									<li class="list-inline-item">
+										<a href="#" title="google">
+											<i class="fi flaticon-google-plus footer__social__icon"></i>
+										</a>
+									</li>
+									<li class="list-inline-item">
+										<a href="#" title="vimeo">
+											<i class="fi flaticon-vimeo-round footer__social__icon"></i>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-2 offset-lg-2">
+						<div class="footer__column">
+							<div class="footer__title">Find it Fast</div>
+							<ul class="footer__list list-unstyled">
+								<li class=""><a href="#">Computers &amp; Laptops</a></li>
+								<li class=""><a href="#">Cameras &amp; Photos</a></li>
+								<li class=""><a href="#">Hardware</a></li>
+								<li class=""><a href="#">Smartphones &amp; Tablets</a></li>
+								<li class=""><a href="#">TV &amp; Audio</a></li>
+							</ul>
+							<div class="footer__subtitle">Gadgets</div>
+							<ul class="footer__list list-unstyled">
+								<li><a href="#">Car Electronics</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-2">
+						<div class="footer__column">
+							<ul class="footer__list footer__list__new list-unstyled">
+								<li><a href="#">Video Games &amp; Consoles</a></li>
+								<li><a href="#">Accessories</a></li>
+								<li><a href="#">Cameras &amp; Photos</a></li>
+								<li><a href="#">Hardware</a></li>
+								<li><a href="#">Computers &amp; Laptops</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-2">
+						<div class="footer__column">
+							<div class="footer__title">Customer Care</div>
+							<ul class="footer__list list-unstyled">
+								<li><a href="#">My Account</a></li>
+								<li><a href="#">Order Tracking</a></li>
+								<li><a href="#">Wish List</a></li>
+								<li><a href="#">Customer Services</a></li>
+								<li><a href="#">Returns / Exchange</a></li>
+								<li><a href="#">FAQs</a></li>
+								<li><a href="#">Product Support</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- footer copyright section-->
+			<div class="copyright">
+				<div class="container">
+					<div class="row">
+						<div class="col">
+							<div class="copyright__container d-flex 
+										flex-sm-row flex-column align-items-center justify-content-start">
+								<div class="copyright__content">
+									Copyright ©2018 All rights reserved | This template is made with 
+									<img class="copyright__content__img" src="images/heart_logo.svg"> by 
+									<a href="#">Someone</a>
+								</div>
+								<div class="logos ml-sm-auto">
+									<ul class="logos__list list-inline">
+										<li class="list-inline-item">
+											<a href="#"><img src="images/logos_1.png" alt=""></a>
+										</li>
+										<li class="list-inline-item">
+											<a href="#"><img src="images/logos_2.png" alt=""></a>
+										</li>
+										<li class="list-inline-item">
+											<a href="#"><img src="images/logos_3.png" alt=""></a>
+										</li>
+										<li class="list-inline-item">
+											<a href="#"><img src="images/logos_4.png" alt=""></a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!--footer ends-->
+
+		<!-- search results -->
+		<div class="" id="parent-data" style="display:none;">
+		
+		</div>
+		<!-- search results -->
+		
+		<!--Scripts-->
+		<script src="js/deals-of-week.js" type="text/javascript"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+		<script src="js/owl.carousel.js"></script>
+		<script src="js/carousel.js"></script>
+		<script src="js/lazy-load.js" defer></script>
+		<script src="js/common.js" type="text/javascript"></script>
+		<script src="js/search.js" type="text/javascript"></script>
+
+	</body>
+</html>
